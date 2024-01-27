@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://x0n5u2gp606x"
+path="res://.godot/imported/Tickle_4.wav-79490a726fd26828481c7ad5577c77b3.sample"
+
+[deps]
+
+source_file="res://Sounds/Tickle Sounds/Tickle_4.wav"
+dest_files=["res://.godot/imported/Tickle_4.wav-79490a726fd26828481c7ad5577c77b3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
