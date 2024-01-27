@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://15w81vffondi"
+path="res://.godot/imported/Pickup_2.wav-269d7ebf28fe77936be0c9170f704c15.sample"
+
+[deps]
+
+source_file="res://Sounds/Pickup Sounds/Pickup_2.wav"
+dest_files=["res://.godot/imported/Pickup_2.wav-269d7ebf28fe77936be0c9170f704c15.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

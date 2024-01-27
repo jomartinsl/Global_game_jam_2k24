@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://doprjjvb4643y"
+path="res://.godot/imported/Horn_4.wav-1f81b0f01fd2f2f471c2cbb4a129c428.sample"
+
+[deps]
+
+source_file="res://Sounds/Horn Sounds/Horn_4.wav"
+dest_files=["res://.godot/imported/Horn_4.wav-1f81b0f01fd2f2f471c2cbb4a129c428.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
