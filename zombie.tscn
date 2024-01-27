@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dqb1kmjvi64nc" path="res://Sprites/Characters/herobrime_zombie.png" id="2_636fr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uuhqr"]
-size = Vector2(10, 32)
+size = Vector2(26, 67)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ibfyw"]
 atlas = ExtResource("2_636fr")
@@ -74,9 +74,12 @@ animations = [{
 script = ExtResource("1_3ubqb")
 
 [node name="Hitbox" type="CollisionShape2D" parent="."]
+position = Vector2(18, 17.5)
 shape = SubResource("RectangleShape2D_uuhqr")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
+position = Vector2(14, 18)
+scale = Vector2(1.875, 2.125)
 sprite_frames = SubResource("SpriteFrames_qqpee")
 animation = &"Walk1"

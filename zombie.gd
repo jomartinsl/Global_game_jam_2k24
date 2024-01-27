@@ -19,3 +19,4 @@ func _process(delta):
 	var direction = (player.position -position).normalized()
 	position+= direction* speed * delta
 	look_at(player.position)
+	move_and_slide()
