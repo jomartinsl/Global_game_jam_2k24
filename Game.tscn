@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmk30c1cdpwkw"]
+[gd_scene load_steps=4 format=3 uid="uid://cmk30c1cdpwkw"]
 
 [ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Player.tscn" id="1_y3etx"]
 [ext_resource type="TileSet" uid="uid://dyh8hxj6o5sin" path="res://Tiles/cave_tile_set.tres" id="2_igkg3"]
+[ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://zombie.tscn" id="3_xc5tg"]
 
 [node name="Game" type="Node2D"]
 rotation = -0.000299335
@@ -22,3 +23,7 @@ position = Vector2(471.903, 325.141)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0.666748, -0.33316)
 scale = Vector2(0.333333, 0.333333)
+
+[node name="zombie" parent="." instance=ExtResource("3_xc5tg")]
+position = Vector2(144.955, 150.043)
+scale = Vector2(3, 3)
