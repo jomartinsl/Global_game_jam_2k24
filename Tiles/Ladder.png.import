@@ -2,18 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-
-uid="uid://ci0q8oosbf5yt"
-
-path="res://.godot/imported/Hjerte_halv.png-963e6db4ee2d2653e3037139f539ca62.ctex"
+uid="uid://clco27elht7ds"
+path="res://.godot/imported/Ladder.png-d941989a2bbe3b2b12efd2820606d4f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UA/Hjerte_halv.png"
-dest_files=["res://.godot/imported/Hjerte_halv.png-963e6db4ee2d2653e3037139f539ca62.ctex"]
+source_file="res://Tiles/Ladder.png"
+dest_files=["res://.godot/imported/Ladder.png-d941989a2bbe3b2b12efd2820606d4f6.ctex"]
 
 [params]
 

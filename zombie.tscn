@@ -40,11 +40,6 @@ region = Rect2(224, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qqpee"]
 animations = [{
-"frames": [],
-"loop": true,
-"name": &"Walk",
-"speed": 5.0
-}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ibfyw")
@@ -71,7 +66,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_lqdfg")
 }],
 "loop": true,
-"name": &"new_animation",
+"name": &"Walk1",
 "speed": 5.0
 }]
 
@@ -84,6 +79,4 @@ shape = SubResource("RectangleShape2D_uuhqr")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_qqpee")
-animation = &"new_animation"
-frame = 4
-frame_progress = 0.0836365
+animation = &"Walk1"
