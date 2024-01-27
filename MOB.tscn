@@ -74,11 +74,11 @@ size = Vector2(7, 12)
 position = Vector2(3, 0)
 script = ExtResource("1_merjb")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Animation" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_d65jw")
 animation = &"Walk"
-frame_progress = 0.774935
+frame_progress = 0.459924
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0.5, 0)

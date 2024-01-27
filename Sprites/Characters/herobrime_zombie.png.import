@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csyekyhnhcg6l"
-path="res://.godot/imported/Hjerte_hel.png-0ff8d30319c8737704b9d282ed745f8d.ctex"
+uid="uid://dqb1kmjvi64nc"
+path="res://.godot/imported/herobrime_zombie.png-db7904f19b1e01a2dbf0fe66b694eeae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UA/Hjerte_hel.png"
-dest_files=["res://.godot/imported/Hjerte_hel.png-0ff8d30319c8737704b9d282ed745f8d.ctex"]
+source_file="res://Sprites/Characters/herobrime_zombie.png"
+dest_files=["res://.godot/imported/herobrime_zombie.png-db7904f19b1e01a2dbf0fe66b694eeae.ctex"]
 
 [params]
 
