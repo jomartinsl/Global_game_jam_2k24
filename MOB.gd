@@ -1,8 +1,8 @@
-extends Node2D  # Eller Sprite
+extends CharacterBody2D  # Eller Sprite
 
 var player
 
-var speed = 100
+var SPEED = 300
 
 
 func _ready():
@@ -15,7 +15,14 @@ func _animate():
 	
 
 func _process(delta):
+	velocity = Vector2.ZERO
+	
 	_animate()
 	var direction = (player.position - position).normalized()
-	position += direction * speed * delta
+	velocity = global_position.direction_to(player.global_position) * SPEED * delta
+	position += SPEED * direction * delta
+	
 	look_at(player.position)
+	move_and_slide()
+
+
