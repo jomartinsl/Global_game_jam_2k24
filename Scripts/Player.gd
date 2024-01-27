@@ -30,6 +30,7 @@ func _move_player():
 		direction.x = 1
 	else:
 		direction.x = 0
+		
 	velocity_percent = velocity_percent.move_toward(direction, SPEED)
 	velocity = SPEED * velocity_percent
 	move_and_slide()
