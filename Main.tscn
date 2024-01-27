@@ -3,7 +3,7 @@
 [ext_resource type="TileSet" uid="uid://dyh8hxj6o5sin" path="res://Tiles/cave_tile_set.tres" id="1_0od3b"]
 [ext_resource type="TileSet" uid="uid://djld60e3x5sao" path="res://Tiles/cave_ladder_tile_set.tres" id="2_twdpe"]
 [ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Player.tscn" id="3_w2kqp"]
-[ext_resource type="PackedScene" uid="uid://bka68jhd3r7a2" path="res://MOB.tscn" id="4_kysd3"]
+[ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://zombie.tscn" id="4_rlbgk"]
 
 [node name="MAIN" type="Node2D"]
 rotation = -0.000299335
@@ -34,8 +34,5 @@ scale = Vector2(2, 2)
 position = Vector2(0.666748, -0.33316)
 scale = Vector2(0.333333, 0.333333)
 
-[node name="Mob" parent="." instance=ExtResource("4_kysd3")]
-position = Vector2(908.929, 238.272)
-scale = Vector2(3, 3)
-collision_layer = 3
-collision_mask = 3
+[node name="zombie" parent="." instance=ExtResource("4_rlbgk")]
+position = Vector2(563.922, 262.169)
