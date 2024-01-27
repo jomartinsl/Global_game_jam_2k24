@@ -1,0 +1,209 @@
+[gd_scene load_steps=6 format=3 uid="uid://c4o0e3fulcon6"]
+
+[ext_resource type="Texture2D" uid="uid://p8wt7nopfwrr" path="res://Sprites/InventoryTile.png" id="1_700o8"]
+[ext_resource type="Texture2D" uid="uid://cy6fhhett0gp2" path="res://Sprites/InventoryTileHelmet.png" id="2_owilr"]
+[ext_resource type="Texture2D" uid="uid://egfvy1ggkett" path="res://Sprites/InventoryTileChestPlate.png" id="3_4txlj"]
+[ext_resource type="Texture2D" uid="uid://dgosvgh4smhsn" path="res://Sprites/InventoryTilePants.png" id="4_bna0q"]
+[ext_resource type="Texture2D" uid="uid://cyythdav6emrd" path="res://Sprites/InventoryTileShoes.png" id="5_rx8ot"]
+
+[node name="Inventory" type="Node2D"]
+
+[node name="InventoryTile" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(6, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(17, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile3" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(28, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile4" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(39, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile5" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(50, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile6" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(61, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile7" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(72, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile8" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(83, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile9" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(6, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile10" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(17, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile11" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(28, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile12" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(39, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile13" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(50, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile14" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(61, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile15" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(72, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile16" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(83, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile17" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(6, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile18" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(17, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile19" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(28, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile20" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(39, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile21" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(50, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile22" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(61, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile23" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(72, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile24" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(83, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile25" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(6, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile26" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(17, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile27" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(28, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile28" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(39, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile29" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(50, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile30" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(61, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile31" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(72, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile32" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(83, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile33" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(94, 6)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile34" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(94, 17)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile35" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(94, 28)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTile36" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(94, 39)
+texture = ExtResource("1_700o8")
+
+[node name="InventoryTileHelmet" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(116, 6)
+texture = ExtResource("2_owilr")
+
+[node name="InventoryTileChestPlate" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(116, 17)
+texture = ExtResource("3_4txlj")
+
+[node name="InventoryTilePants" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(116, 28)
+texture = ExtResource("4_bna0q")
+
+[node name="InventoryTileShoes" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(116, 39)
+texture = ExtResource("5_rx8ot")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmk30c1cdpwkw"]
+
+[ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Player.tscn" id="1_y3etx"]
+
+[node name="Game" type="Node2D"]
+rotation = -0.000299335
+
+[node name="Player" parent="." instance=ExtResource("1_y3etx")]

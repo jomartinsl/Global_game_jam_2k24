@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvxbiksl1yy3p"]
+
+[ext_resource type="Texture2D" uid="uid://c18k0uwxuirs1" path="res://Sprites/MobilePhone.png" id="1_pa1ra"]
+
+[node name="Mobile" type="Node2D"]
+
+[node name="MobilePhone" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_pa1ra")
