@@ -1,4 +1,4 @@
-extends Node2D  # Eller Sprite
+extends CharacterBody2D  # Eller Sprite
 
 var player
 
