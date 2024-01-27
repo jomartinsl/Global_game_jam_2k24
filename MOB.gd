@@ -19,7 +19,7 @@ func _process(delta):
 	
 	_animate()
 	var direction = (player.position - position).normalized()
-	velocity = global_position.direction_to(player.global_position) * SPEED * delta
+	
 	position += SPEED * direction * delta
 	
 	look_at(player.position)
