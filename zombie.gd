@@ -1,11 +1,20 @@
 extends Node2D
 
 
-# Called when the node enters the scene tree for the first time.
+var player
+
+var speed =130
+
 func _ready():
-	pass # Replace with function body.
+	player = $"../Player"
+	
+func _animate():
+	var animasjon = get_node("AnimatedSprite2D")
+	animasjon.play("Walk1")
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	_animate()
+	var direction = (player.position -position).normalized()
+	position+= direction* speed * delta
+	look_at(player.position)
