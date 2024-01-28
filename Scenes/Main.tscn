@@ -4,8 +4,7 @@
 [ext_resource type="Script" path="res://Scripts/Main.gd" id="1_s2q33"]
 [ext_resource type="TileSet" uid="uid://djld60e3x5sao" path="res://Tiles/cave_ladder_tile_set.tres" id="2_twdpe"]
 [ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Scenes/Player.tscn" id="3_w2kqp"]
-[ext_resource type="PackedScene" uid="uid://dj1rorb70pgy2" path="res://Scenes/hjerte_container.tscn" id="5_0coa8"]
-[ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://Scenes/zombie.tscn" id="6_nfu8e"]
+[ext_resource type="PackedScene" path="res://Scenes/hjerte_container.tscn" id="5_0coa8"]
 
 [node name="MAIN" type="Node2D"]
 rotation = -0.000299335
@@ -54,24 +53,3 @@ visible = false
 offset_right = 1168.0
 offset_bottom = 656.0
 color = Color(1, 0, 0, 0.294118)
-
-[node name="zombie" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(983.849, 504.294)
-
-[node name="zombie2" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(2119.9, 344.635)
-
-[node name="zombie3" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(1007.53, 1560.3)
-
-[node name="zombie4" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(1415.37, 2104.42)
-
-[node name="zombie5" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(2495.66, 1120.75)
-
-[node name="zombie6" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(5591.59, 1377.67)
-
-[node name="zombie7" parent="." instance=ExtResource("6_nfu8e")]
-position = Vector2(6343.79, 713.899)

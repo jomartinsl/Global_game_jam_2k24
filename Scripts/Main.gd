@@ -3,6 +3,8 @@ extends Node2D
 @onready var hjerteContainer = $CanvasLayer/HjerteContainer
 @onready var player = $Player
 @onready var canvas_layer_2 = $CanvasLayer2
+var enemy_scene = preload("res://Scenes/zombie.tscn")
+var count = 0
 
 
 # Called when the node enters the scene tree for the first time.
@@ -19,3 +21,4 @@ func _process(delta):
 	if player.Health <= 0:
 		canvas_layer_2.visible = true
 		player.Health = 0
+
