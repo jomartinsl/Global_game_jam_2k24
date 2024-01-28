@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://cqeyudabqxj5j"
+=======
+uid="uid://ddpwawbiq8js0"
+>>>>>>> Stashed changes
 path="res://.godot/imported/iron feet.png-736212487ff9f0f67290c495d5d0506a.ctex"
 metadata={
 "vram_texture": false

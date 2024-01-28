@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://28b5ncsvadxh"
+=======
+uid="uid://cbj4412ptvulp"
+>>>>>>> Stashed changes
 path="res://.godot/imported/iron body.png-87dc32b33ad1c22dfdd3af5c1e814518.ctex"
 metadata={
 "vram_texture": false

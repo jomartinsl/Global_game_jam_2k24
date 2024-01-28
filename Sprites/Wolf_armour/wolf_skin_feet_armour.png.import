@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://donx5aevhxeo0"
+=======
+uid="uid://cmfw7bguqe5i3"
+>>>>>>> Stashed changes
 path="res://.godot/imported/wolf_skin_feet_armour.png-55e68de1a41b02b446f41e8e36eff251.ctex"
 metadata={
 "vram_texture": false
