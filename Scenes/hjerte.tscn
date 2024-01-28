@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr24ttd5ss0f"]
+
+[ext_resource type="Texture2D" uid="uid://djr4tr7jwvhx7" path="res://Sprites/UA/HjerteSheet.png" id="1_desjh"]
+[ext_resource type="Script" path="res://Scripts/hjerte.gd" id="1_dsj34"]
+
+[node name="Hjerte" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+texture_filter = 1
+custom_minimum_size = Vector2(32, 32)
+offset_right = 32.0
+offset_bottom = 32.0
+script = ExtResource("1_dsj34")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_desjh")
+centered = false
+hframes = 3
+frame = 2
