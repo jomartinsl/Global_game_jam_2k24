@@ -3,6 +3,7 @@ extends CharacterBody2D
 const SPEED = 500
 var velocity_percent = Vector2.ZERO
 var direction = Vector2(0, 0)
+var health = 100
 
 func _physics_process(delta):
 	_animate()
@@ -17,16 +18,16 @@ func _animate():
 		animation.stop()
 
 func _move_player():
-	if Input.is_action_pressed("ui_down"):
+	if Input.is_action_pressed("ui_down") or Input.is_key_pressed(KEY_S):
 		direction.y = 1
-	elif Input.is_action_pressed("ui_up"):
+	elif Input.is_action_pressed("ui_up") or Input.is_key_pressed(KEY_W):
 		direction.y = -1
 	else:
 		direction.y = 0
 	
-	if Input.is_action_pressed("ui_left"):
+	if Input.is_action_pressed("ui_left") or Input.is_key_pressed(KEY_A):
 		direction.x = -1
-	elif Input.is_action_pressed("ui_right"):
+	elif Input.is_action_pressed("ui_right") or Input.is_key_pressed(KEY_D):
 		direction.x = 1
 	else:
 		direction.x = 0
