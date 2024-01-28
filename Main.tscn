@@ -38,3 +38,13 @@ scale = Vector2(0.333333, 0.333333)
 [node name="zombie" parent="." instance=ExtResource("4_rlbgk")]
 z_index = 1
 position = Vector2(563.922, 262.169)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+offset_right = 40.0
+offset_bottom = 23.0

@@ -20,9 +20,3 @@ func _process(delta):
 	position+= direction* speed * delta
 	look_at(player.position)
 	move_and_slide()
-	
-
-	
-	
-	
-	
