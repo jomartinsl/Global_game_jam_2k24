@@ -1,24 +1,15 @@
 [gd_scene load_steps=7 format=3 uid="uid://cmk30c1cdpwkw"]
 
 [ext_resource type="TileSet" uid="uid://dyh8hxj6o5sin" path="res://Tiles/cave_tile_set.tres" id="1_0od3b"]
+[ext_resource type="Script" path="res://Scripts/Main.gd" id="1_s2q33"]
 [ext_resource type="TileSet" uid="uid://djld60e3x5sao" path="res://Tiles/cave_ladder_tile_set.tres" id="2_twdpe"]
 [ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Scenes/Player.tscn" id="3_w2kqp"]
 [ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://Scenes/zombie.tscn" id="4_rlbgk"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dl4ih"]
-bg_color = Color(0.607843, 0.6, 0.592157, 0)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xl7rr"]
-bg_color = Color(0, 0.509804, 0, 1)
-border_width_left = 5
-border_blend = true
-corner_radius_top_left = 5
-corner_radius_top_right = 5
-corner_radius_bottom_right = 5
-corner_radius_bottom_left = 5
+[ext_resource type="PackedScene" uid="uid://dj1rorb70pgy2" path="res://Scenes/hjerte_container.tscn" id="5_0coa8"]
 
 [node name="MAIN" type="Node2D"]
 rotation = -0.000299335
+script = ExtResource("1_s2q33")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 6687.0
@@ -52,31 +43,18 @@ z_index = 1
 position = Vector2(563.922, 262.169)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-layer = 2
+layer = 3
 
-[node name="Panel" type="Panel" parent="CanvasLayer"]
-offset_left = -448.0
-offset_top = -144.0
-offset_right = -232.0
-offset_bottom = -72.0
+[node name="HjerteContainer" parent="CanvasLayer" instance=ExtResource("5_0coa8")]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 220.0
+offset_bottom = 40.0
 
-[node name="Label" type="Label" parent="CanvasLayer/Panel"]
-layout_mode = 0
-offset_left = 32.0
-offset_top = 16.0
-offset_right = 176.0
-offset_bottom = 56.0
-horizontal_alignment = 1
-vertical_alignment = 1
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+visible = false
 
-[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer/Panel"]
-layout_mode = 0
-offset_right = 216.0
-offset_bottom = 72.0
-theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
-theme_override_constants/outline_size = 2
-theme_override_styles/background = SubResource("StyleBoxFlat_dl4ih")
-theme_override_styles/fill = SubResource("StyleBoxFlat_xl7rr")
-step = 1.0
-value = 50.0
-show_percentage = false
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer2"]
+offset_right = 1168.0
+offset_bottom = 656.0
+color = Color(1, 0, 0, 0.294118)
