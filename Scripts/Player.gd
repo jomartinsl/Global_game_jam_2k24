@@ -48,7 +48,7 @@ func enemyCollision():
 	for i in get_slide_collision_count():
 		var colisjon = get_slide_collision(i)
 		var collider = colisjon.get_collider()
-		if collider.name == zombie.name:
+		if collider.name == "zombie":
 			if time > 1:
 				Health -= 1
 				hit = true
