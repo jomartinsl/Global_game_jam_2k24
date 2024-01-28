@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cmk30c1cdpwkw"]
+[gd_scene load_steps=5 format=3 uid="uid://cmk30c1cdpwkw"]
 
 [ext_resource type="TileSet" uid="uid://dyh8hxj6o5sin" path="res://Tiles/cave_tile_set.tres" id="1_0od3b"]
 [ext_resource type="Script" path="res://Scripts/Main.gd" id="1_s2q33"]
@@ -37,10 +37,6 @@ scale = Vector2(2, 2)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0.666748, -0.33316)
 scale = Vector2(0.333333, 0.333333)
-
-[node name="zombie" parent="." instance=ExtResource("4_rlbgk")]
-z_index = 1
-position = Vector2(563.922, 262.169)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = 3
