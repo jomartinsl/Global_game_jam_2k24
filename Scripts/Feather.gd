@@ -4,14 +4,15 @@ const SPEED = 300
 var velocity_percent = Vector2.ZERO
 var direction = Vector2(0, 0)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	look_at(get_global_mouse_position())
-	_animate()
+var animation_played = false
 
-	
-func _animate():
-	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
+func _process(delta):
+	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and !animation_played:
 		get_node("Animation").play("Feather")
-	else:
+		animation_played = true
+	elif Input.is_action_just_released("ui_accept"):
+		animation_played = false
 		get_node("Animation").stop()
+
+	# Look at the mouse position regardless of button press
+	look_at(get_global_mouse_position())
