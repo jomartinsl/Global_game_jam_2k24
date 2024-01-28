@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgosvgh4smhsn"
-path="res://.godot/imported/InventoryTilePants.png-92ab53caf5c88293d01d768c8e747402.ctex"
+uid="uid://bogxlloogfq1q"
+path="res://.godot/imported/PlayerSprite.png-f87eb15d91f40eccc4ec76d8e21bba11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/InventoryTilePants.png"
-dest_files=["res://.godot/imported/InventoryTilePants.png-92ab53caf5c88293d01d768c8e747402.ctex"]
+source_file="res://Sprites/Characters/PlayerSprite.png"
+dest_files=["res://.godot/imported/PlayerSprite.png-f87eb15d91f40eccc4ec76d8e21bba11.ctex"]
 
 [params]
 

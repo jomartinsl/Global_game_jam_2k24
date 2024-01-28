@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://egfvy1ggkett"
-path="res://.godot/imported/InventoryTileChestPlate.png-3cd315b74f05ea3d723e0f5634c5f5f6.ctex"
+uid="uid://mrm5kl2ihvu8"
+path="res://.godot/imported/Joint.png-811885632c7d7f1199fe2201e61c235c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/InventoryTileChestPlate.png"
-dest_files=["res://.godot/imported/InventoryTileChestPlate.png-3cd315b74f05ea3d723e0f5634c5f5f6.ctex"]
+source_file="res://Sprites/Weapons and tools/Joint.png"
+dest_files=["res://.godot/imported/Joint.png-811885632c7d7f1199fe2201e61c235c.ctex"]
 
 [params]
 

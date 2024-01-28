@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cy6fhhett0gp2"
-path="res://.godot/imported/InventoryTileHelmet.png-22b2a956b053aa876378e258959c40cc.ctex"
+uid="uid://dgosvgh4smhsn"
+path="res://.godot/imported/InventoryTilePants.png-11f59ac04fd3f10d422a0ce62fee3dab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/InventoryTileHelmet.png"
-dest_files=["res://.godot/imported/InventoryTileHelmet.png-22b2a956b053aa876378e258959c40cc.ctex"]
+source_file="res://Tiles/InventoryTilePants.png"
+dest_files=["res://.godot/imported/InventoryTilePants.png-11f59ac04fd3f10d422a0ce62fee3dab.ctex"]
 
 [params]
 

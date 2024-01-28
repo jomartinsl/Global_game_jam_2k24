@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://x1ktgchqcq1h"
-path="res://.godot/imported/FeatherSprite.png-5145d6e738689d936924dbd5fccc9683.ctex"
+path="res://.godot/imported/FeatherSprite.png-450dc6f410bc725f987e8a9756088a89.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/FeatherSprite.png"
-dest_files=["res://.godot/imported/FeatherSprite.png-5145d6e738689d936924dbd5fccc9683.ctex"]
+source_file="res://Sprites/Characters/FeatherSprite.png"
+dest_files=["res://.godot/imported/FeatherSprite.png-450dc6f410bc725f987e8a9756088a89.ctex"]
 
 [params]
 

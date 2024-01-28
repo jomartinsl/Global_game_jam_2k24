@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mrm5kl2ihvu8"
-path="res://.godot/imported/Joint.png-2dbcc1da815c53f808514768efbde580.ctex"
+uid="uid://c85phjd6fqa8c"
+path="res://.godot/imported/KlovneHorn.png-557611ebae0280b41b8297f376f25780.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Weapons/Joint.png"
-dest_files=["res://.godot/imported/Joint.png-2dbcc1da815c53f808514768efbde580.ctex"]
+source_file="res://Sprites/Weapons and tools/KlovneHorn.png"
+dest_files=["res://.godot/imported/KlovneHorn.png-557611ebae0280b41b8297f376f25780.ctex"]
 
 [params]
 
