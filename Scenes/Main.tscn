@@ -1,12 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://cmk30c1cdpwkw"]
 
 [ext_resource type="TileSet" uid="uid://dyh8hxj6o5sin" path="res://Tiles/cave_tile_set.tres" id="1_0od3b"]
+[ext_resource type="Script" path="res://Scenes/MobSpawner.gd" id="1_u5ks3"]
 [ext_resource type="TileSet" uid="uid://djld60e3x5sao" path="res://Tiles/cave_ladder_tile_set.tres" id="2_twdpe"]
 [ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Scenes/Player.tscn" id="3_w2kqp"]
-[ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://Scenes/zombie.tscn" id="4_rlbgk"]
 
 [node name="MAIN" type="Node2D"]
 rotation = -0.000299335
+script = ExtResource("1_u5ks3")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 6687.0
@@ -35,10 +36,6 @@ scale = Vector2(2, 2)
 position = Vector2(0.666748, -0.33316)
 scale = Vector2(0.333333, 0.333333)
 
-[node name="zombie" parent="." instance=ExtResource("4_rlbgk")]
-z_index = 1
-position = Vector2(563.922, 262.169)
-
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Panel" type="Panel" parent="CanvasLayer"]
@@ -49,3 +46,5 @@ offset_bottom = 40.0
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
+
+[node name="Timer" type="Timer" parent="."]

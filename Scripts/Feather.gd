@@ -23,11 +23,10 @@ func _animate(delta):
 		attacking = true
 		time = 0
 	elif time >= .45:
+		get_node("Animation").stop()
+		get_node("Hitbox").disabled = true
 		if !Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
-			get_node("Animation").stop()
-			get_node("Hitbox").disabled = true
 			attacking = false
 	elif attacking:
 		time += delta
-		print(time)
 	look_at(get_global_mouse_position())

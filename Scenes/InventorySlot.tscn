@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://nbtksl1kgfb1"]
+
+[ext_resource type="Texture2D" uid="uid://p8wt7nopfwrr" path="res://Tiles/InventoryTile.png" id="1_qvoye"]
+
+[node name="Panel" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+offset_right = 12.0
+offset_bottom = 12.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_qvoye")
+centered = false
