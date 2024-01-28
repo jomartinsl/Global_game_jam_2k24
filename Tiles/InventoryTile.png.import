@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cyythdav6emrd"
-path="res://.godot/imported/InventoryTileShoes.png-03fd0043fe0dd4bf09ace24791dc5992.ctex"
+uid="uid://p8wt7nopfwrr"
+path="res://.godot/imported/InventoryTile.png-15ea201a3bf5fa838582d0076a434ea7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/InventoryTileShoes.png"
-dest_files=["res://.godot/imported/InventoryTileShoes.png-03fd0043fe0dd4bf09ace24791dc5992.ctex"]
+source_file="res://Tiles/InventoryTile.png"
+dest_files=["res://.godot/imported/InventoryTile.png-15ea201a3bf5fa838582d0076a434ea7.ctex"]
 
 [params]
 

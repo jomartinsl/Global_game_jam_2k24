@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3tce8k84mbk"
-path="res://.godot/imported/WhoppieCushion.png-668e0cf208595c42e47ef228f9736a16.ctex"
+uid="uid://c18k0uwxuirs1"
+path="res://.godot/imported/MobilePhone.png-76a0bbcb052b9ae7fecc99ad91705ec4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Weapons/WhoppieCushion.png"
-dest_files=["res://.godot/imported/WhoppieCushion.png-668e0cf208595c42e47ef228f9736a16.ctex"]
+source_file="res://Sprites/Weapons and tools/MobilePhone.png"
+dest_files=["res://.godot/imported/MobilePhone.png-76a0bbcb052b9ae7fecc99ad91705ec4.ctex"]
 
 [params]
 

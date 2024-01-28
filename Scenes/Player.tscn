@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://vmvew2020igi"]
+[gd_scene load_steps=8 format=3 uid="uid://vmvew2020igi"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_a3rp6"]
-[ext_resource type="Texture2D" uid="uid://bogxlloogfq1q" path="res://Sprites/PlayerSprite.png" id="1_mvfcd"]
-[ext_resource type="PackedScene" uid="uid://bkuvawougxl1g" path="res://Feather.tscn" id="3_wu4kn"]
+[ext_resource type="Texture2D" uid="uid://bogxlloogfq1q" path="res://Sprites/Characters/PlayerSprite.png" id="1_mvfcd"]
+[ext_resource type="PackedScene" uid="uid://bkuvawougxl1g" path="res://Scenes/Feather.tscn" id="3_wu4kn"]
+[ext_resource type="AudioStream" uid="uid://bw5r4gsstv3v6" path="res://Sounds/Feather Sound/Feather_1.wav" id="4_u1cyk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e5ofc"]
 size = Vector2(4, 12)
@@ -49,3 +50,6 @@ libraries = {
 }
 
 [node name="Feather" parent="." instance=ExtResource("3_wu4kn")]
+
+[node name="Sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_u1cyk")

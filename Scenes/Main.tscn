@@ -2,8 +2,8 @@
 
 [ext_resource type="TileSet" uid="uid://dyh8hxj6o5sin" path="res://Tiles/cave_tile_set.tres" id="1_0od3b"]
 [ext_resource type="TileSet" uid="uid://djld60e3x5sao" path="res://Tiles/cave_ladder_tile_set.tres" id="2_twdpe"]
-[ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Player.tscn" id="3_w2kqp"]
-[ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://zombie.tscn" id="4_rlbgk"]
+[ext_resource type="PackedScene" uid="uid://vmvew2020igi" path="res://Scenes/Player.tscn" id="3_w2kqp"]
+[ext_resource type="PackedScene" uid="uid://cshuc2lo5xopf" path="res://Scenes/zombie.tscn" id="4_rlbgk"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dl4ih"]
 bg_color = Color(0.607843, 0.6, 0.592157, 0)

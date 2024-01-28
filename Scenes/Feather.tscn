@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bkuvawougxl1g"]
 
 [ext_resource type="Script" path="res://Scripts/Feather.gd" id="1_f7cni"]
-[ext_resource type="Texture2D" uid="uid://x1ktgchqcq1h" path="res://Sprites/FeatherSprite.png" id="1_gnt84"]
+[ext_resource type="Texture2D" uid="uid://x1ktgchqcq1h" path="res://Sprites/Characters/FeatherSprite.png" id="1_gnt84"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ssfsi"]
 size = Vector2(6.20408, 3.26531)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c18k0uwxuirs1"
-path="res://.godot/imported/MobilePhone.png-97b805046a868660f112fa3838054af4.ctex"
+uid="uid://cyythdav6emrd"
+path="res://.godot/imported/InventoryTileShoes.png-829e47ca24592e352b9c55f26e7ce7dc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/MobilePhone.png"
-dest_files=["res://.godot/imported/MobilePhone.png-97b805046a868660f112fa3838054af4.ctex"]
+source_file="res://Tiles/InventoryTileShoes.png"
+dest_files=["res://.godot/imported/InventoryTileShoes.png-829e47ca24592e352b9c55f26e7ce7dc.ctex"]
 
 [params]
 

@@ -22,3 +22,6 @@ func _animate():
 	else:
 		get_node("Animation").stop()
 		get_node("Hitbox").disabled = true
+
+	# Look at the mouse position regardless of button press
+	look_at(get_global_mouse_position())

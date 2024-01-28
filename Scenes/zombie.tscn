@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://cshuc2lo5xopf"]
 
-[ext_resource type="Script" path="res://zombie.gd" id="1_3ubqb"]
+[ext_resource type="Script" path="res://Scripts/zombie.gd" id="1_3ubqb"]
 [ext_resource type="Texture2D" uid="uid://dqb1kmjvi64nc" path="res://Sprites/Characters/herobrime_zombie.png" id="2_636fr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uuhqr"]
