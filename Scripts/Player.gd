@@ -1,14 +1,19 @@
 extends CharacterBody2D
 
+@onready var zombie = $"../zombie"
+
 const SPEED = 500
 var velocity_percent = Vector2.ZERO
 var direction = Vector2(0, 0)
-var health = 100
+var health = 6
 
 func _physics_process(delta):
 	_animate()
 	_move_player()
 	look_at(get_global_mouse_position())
+	enemyCollision()
+	if health <= 0:
+		queue_free()
 
 func _animate():
 	var animation = get_node("Animation")
@@ -35,3 +40,11 @@ func _move_player():
 	velocity_percent = velocity_percent.move_toward(direction, SPEED)
 	velocity = SPEED * velocity_percent
 	move_and_slide()
+
+func enemyCollision():
+	for i in get_slide_collision_count():
+		var colisjon = get_slide_collision(i)
+		var collider = colisjon.get_collider()
+		if collider.name == zombie.name:
+			health -= 1
+		
