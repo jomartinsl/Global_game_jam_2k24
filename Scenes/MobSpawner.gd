@@ -1,6 +1,13 @@
 extends Node2D
 
+var enemy_scene = preload("res://Scenes/zombie.tscn")
 var count = 0
-# Called when the node enters the scene tree for the first time.
+
 func _physics_process(delta):
-	pass
+	$Timer.start()
+
+func _on_Timer_timeout():
+	if (count >= 15):
+		var enemy = enemy_scene.instance()
+		add_child(enemy)
+		count += 1
