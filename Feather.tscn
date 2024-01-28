@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://hvpnpaipsnc6"]
+
+[ext_resource type="Script" path="res://Scripts/Feather.gd" id="1_f7cni"]
+[ext_resource type="Texture2D" path="res://Sprites/FeatherSprite.png" id="1_gnt84"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ssfsi"]
+size = Vector2(6.20408, 3.26531)
+
+[sub_resource type="Animation" id="Animation_jpn0s"]
+resource_name = "Feather"
+length = 0.45
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Feather:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 2, 3, 4, 3, 2, 1, 0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3log2"]
+_data = {
+"Feather": SubResource("Animation_jpn0s")
+}
+
+[node name="Feather" type="StaticBody2D"]
+scale = Vector2(1.75, 1.75)
+script = ExtResource("1_f7cni")
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+position = Vector2(10.5714, 6.28571)
+scale = Vector2(1.75, 1.75)
+shape = SubResource("RectangleShape2D_ssfsi")
+
+[node name="Feather" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.75, 1.75)
+texture = ExtResource("1_gnt84")
+hframes = 5
+frame = 1
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3log2")
+}
